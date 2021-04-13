@@ -1,0 +1,63 @@
+/* @import url("https://fonts.googleapis.com/css2?family=Rubik:wght@400;700&display=swap"); */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Rubik", sans-serif;
+  font-size: 0.75em;
+  color:#dfdff5;
+  background-image: radial-gradient(#0a0f0f, #4d414c);
+}
+#first, #second, #third, #fourth, #fifth, #last{
+  height:200vh;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-direction: column;
+  max-width: 1200px;
+	min-width: 700px;
+  margin: 0 auto;
+
+}
+#first, #last{
+  height: 100vh;
+}
+.title{
+  font-size: 64px;
+  display: flex;
+  /* justify-content: center; */
+
+}
+.description{
+  
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.description p{
+  
+  font-size: 24px;
+  display: flex;
+  /* justify-content: center; */
+  margin:10px;
+}
+
+#sections{
+  z-index: 5;
+}
+/* threejs */
+#three{
+    /* background: #17161A; */
+    position: fixed;
+    top:0px;
+    left:0px;
+    z-index: -10;
+  }
+
+  #down-arrow{
+    width:100px;
+    height:100px;
+    display: flex;
+    align-self: center;
+    padding-top:40px;
+  
+  }
